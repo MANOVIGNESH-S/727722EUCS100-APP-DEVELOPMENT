@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('./Assets/3418448.jpg'); /* Ensure this image has purple tones for a cohesive look */
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0); /* Fully transparent */
+  backdrop-filter: blur(10px); /* Adjust the blur radius as needed */
+  -webkit-backdrop-filter: blur(10px);
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 340px; /* Reduced width */
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #f0e9f1; /* Light purple */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch; /* Stretch inputs to full width */
+}
+
+input {
+  width: 93.5%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #e1bee7; /* Light purple border */
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #9c27b0; /* Purple */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #7b1fa2; /* Darker purple for hover effect */
+}
+
+.toggle-btn {
+  margin-top: 20px;
+  background-color: transparent;
+  color: #9c27b0; /* Purple */
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.toggle-btn:hover {
+  color: #ba68c8; /* Lighter purple for hover effect */
+}
